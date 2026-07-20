@@ -2,6 +2,7 @@
 @font-face { font-family:"Aileron"; font-style:normal; font-weight:600; font-display:swap; src:url("/fonts/aileron-600.woff2") format("woff2"); }
 @font-face { font-family:"Aileron"; font-style:normal; font-weight:700; font-display:swap; src:url("/fonts/aileron-700.woff2") format("woff2"); }
 @font-face { font-family:"Aileron"; font-style:normal; font-weight:800; font-display:swap; src:url("/fonts/aileron-800.woff2") format("woff2"); }
+@font-face { font-family:"Aileron"; font-style:italic; font-weight:400; font-display:swap; src:url("/fonts/aileron-400-italic.woff2") format("woff2"); }
 @import "tailwindcss";
 
 :root { --paper:#f5efe7; --ink:#1e1b18; --red:#c72a09; --blush:#d8b8a8; --sage:#8f978f; --line:rgba(30,27,24,.25); }
@@ -12,7 +13,7 @@ a { color:inherit; text-decoration:none; }
 .hero { min-height:100vh; background:var(--red); color:var(--paper); padding:24px 3.5vw 20px; display:flex; flex-direction:column; overflow:hidden; }
 .nav, .hero-footer, footer { display:flex; align-items:center; justify-content:space-between; gap:24px; }
 .wordmark { font-weight:800; font-size:21px; letter-spacing:-1.2px; white-space:nowrap; }
-.wordmark span { font-weight:400; }
+.wordmark span { font-style:italic; font-weight:400; }
 .nav-links { display:flex; align-items:center; gap:clamp(18px,3vw,44px); font-size:12px; font-weight:600; letter-spacing:.02em; }
 .nav-links a { transition:opacity .2s; }.nav-links a:hover{opacity:.65}
 .arrow { display:inline-block; font-size:1.15em; margin-left:4px; transition:transform .2s; }.button:hover .arrow,.text-link:hover .arrow{transform:translate(2px,-2px)}
