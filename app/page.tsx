@@ -4,6 +4,10 @@ export default function Home() {
   return (
     <main>
       <section className="hero" id="top">
+        <div className="hero-sidestamp" aria-hidden="true">
+          <span>01 / Field note</span>
+          <p>Stay <em>close</em><br />to culture.</p>
+        </div>
         <nav className="nav" aria-label="Main navigation">
           <a className="wordmark" href="#top" aria-label="Solid Advice home">
             solid <span>advice</span>
@@ -38,12 +42,16 @@ export default function Home() {
 
         <div className="hero-footer">
           <p>Strategy <span>+</span> soul. Evidence <span>+</span> instinct.</p>
-          <a href="#approach" className="scroll-cue">Scroll to explore <span aria-hidden="true">↓</span></a>
+          <a href="#approach" className="scroll-cue">Scroll to explore <span aria-hidden="true" className="arrow arrow-south" /></a>
         </div>
       </section>
 
       <section className="manifesto" id="approach">
         <p className="section-kicker">01 / The Solid Advice approach</p>
+        <div className="field-note field-note-approach" aria-hidden="true">
+          <span>Working note</span>
+          <p>Clarity is a<br /><em>creative</em> act.</p>
+        </div>
         <div className="manifesto-copy">
           <h2>Clear thinking<br />for a world that<br />isn&apos;t simple.</h2>
           <div className="manifesto-detail">
@@ -109,6 +117,10 @@ export default function Home() {
 
       <section className="contact" id="contact">
         <p className="section-kicker">03 / Let&apos;s begin</p>
+        <div className="field-note field-note-contact" aria-hidden="true">
+          <span>Open invitation</span>
+          <p>Bring the<br /><em>knotty</em> question.</p>
+        </div>
         <div className="contact-grid">
           <h2>Make the next<br />move <em>count.</em></h2>
           <div className="contact-detail">
