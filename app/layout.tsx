@@ -8,14 +8,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Solid Advice — Creative intelligence for meaningful growth",
     description: "Big-picture thinking. Real-world momentum.",
+    type: "website",
+    url: "https://solidadvice.co/",
     siteName: "Solid Advice",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Solid Advice — Creative intelligence for meaningful growth" }],
+    images: [{ url: "/og-field-notes.png", width: 1200, height: 630, alt: "Solid Advice — Creative intelligence for meaningful growth" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Solid Advice — Creative intelligence for meaningful growth",
     description: "Big-picture thinking. Real-world momentum.",
-    images: ["/og.png"],
+    images: ["/og-field-notes.png"],
   },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
