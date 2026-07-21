@@ -1,4 +1,4 @@
-const Arrow = () => <span aria-hidden="true" className="arrow">↗</span>;
+const Arrow = () => <span aria-hidden="true" className="arrow" />;
 
 export default function Home() {
   return (
@@ -81,17 +81,17 @@ export default function Home() {
           <article className="work-row">
             <p className="work-number">(01)</p>
             <div><h3>Find the signal</h3><p>Research, audience insight, positioning, and the patterns that matter most.</p></div>
-            <span className="work-symbol" aria-hidden="true">↘</span>
+            <span className="work-symbol arrow-southeast" aria-hidden="true" />
           </article>
           <article className="work-row">
             <p className="work-number">(02)</p>
             <div><h3>Shape the direction</h3><p>Strategy, brand architecture, growth priorities, and a focused plan for what&apos;s next.</p></div>
-            <span className="work-symbol" aria-hidden="true">↗</span>
+            <span className="work-symbol" aria-hidden="true" />
           </article>
           <article className="work-row">
             <p className="work-number">(03)</p>
             <div><h3>Build momentum</h3><p>Creative platforms, decision support, and senior partnership that carries the work forward.</p></div>
-            <span className="work-symbol" aria-hidden="true">→</span>
+            <span className="work-symbol arrow-east" aria-hidden="true" />
           </article>
         </div>
       </section>
@@ -103,7 +103,7 @@ export default function Home() {
         </div>
         <p className="signal-copy">The strongest direction is both <em>felt</em> and <strong>founded.</strong></p>
         <div className="signal-data" aria-label="A simple increasing growth indicator">
-          <span>NOW</span><i /><i /><i /><i className="tall" /><b>→</b><span>NEXT</span>
+          <span>NOW</span><i /><i /><i /><i className="tall" /><span aria-hidden="true" className="arrow arrow-east signal-arrow" /><span>NEXT</span>
         </div>
       </section>
 
@@ -119,7 +119,7 @@ export default function Home() {
         <footer>
           <a className="wordmark" href="#top">solid <span>advice</span></a>
           <p>© {new Date().getFullYear()} Solid Advice</p>
-          <a href="#top">Back to top ↑</a>
+          <a href="#top">Back to top <span aria-hidden="true" className="arrow arrow-north" /></a>
         </footer>
       </section>
     </main>
