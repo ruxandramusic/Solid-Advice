@@ -38,6 +38,7 @@ html,body{max-width:100%;overflow-x:hidden}
 main{width:100%;max-width:100%;overflow-x:hidden}
 .principles{width:100%;max-width:100%;grid-template-columns:repeat(3,minmax(0,1fr))}
 .principle{min-width:0;overflow-wrap:anywhere}
+.signal-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--ink);flex:0 0 auto}
 @media(max-width:900px){
   .hero-sidestamp{right:20px;top:76px;width:126px;padding:11px 12px}
   .hero-grid{grid-template-columns:minmax(0,1fr);padding-top:110px;gap:45px}

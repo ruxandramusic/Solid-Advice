@@ -68,8 +68,8 @@ export default function Home() {
 
       <section className="signal">
         <div className="signal-note">
-          <span className="note-mark">✳</span>
-          <p>Big-picture thinking. Real-world momentum.</p>
+          <span className="signal-dot" aria-hidden="true" />
+          <p>Big-picture thinking. Strategic rigor. Human perspective.</p>
         </div>
         <p className="signal-copy">The strongest direction is both <em>felt</em> and <strong>founded.</strong></p>
         <div className="signal-data" aria-label="A simple increasing growth indicator">
