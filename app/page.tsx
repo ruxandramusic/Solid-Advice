@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <section className="hero" id="top">
         <div className="hero-sidestamp" aria-hidden="true">
-          <span>01 / Field note</span>
+          <span>Field note</span>
           <p>Stay <em>close</em><br />to culture.</p>
         </div>
         <nav className="nav" aria-label="Main navigation">
