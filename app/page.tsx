@@ -66,24 +66,6 @@ export default function Home() {
 
       <RecommendationCarousel />
 
-      <section className="principles" aria-label="Our principles">
-        <article className="principle principle-red">
-          <span>01</span>
-          <h3>Creative<br />conviction</h3>
-          <p>Bold ideas with a real point of view—not safe, interchangeable recommendations.</p>
-        </article>
-        <article className="principle principle-paper">
-          <span>02</span>
-          <h3>Grounded<br />intelligence</h3>
-          <p>Expertise and evidence that turn complexity into clear, usable choices.</p>
-        </article>
-        <article className="principle principle-ink">
-          <span>03</span>
-          <h3>Human<br />guidance</h3>
-          <p>Close collaboration, honest perspective, and momentum you can feel.</p>
-        </article>
-      </section>
-
       <section className="signal">
         <div className="signal-note">
           <span className="note-mark">✳</span>
@@ -93,6 +75,21 @@ export default function Home() {
         <div className="signal-data" aria-label="A simple increasing growth indicator">
           <span>NOW</span><i /><i /><i /><i className="tall" /><span aria-hidden="true" className="arrow arrow-east signal-arrow" /><span>NEXT</span>
         </div>
+      </section>
+
+      <section className="principles" aria-label="Our principles">
+        <article className="principle principle-red">
+          <h3>Creative<br />conviction</h3>
+          <p>Bold ideas with a real point of view—not safe, interchangeable recommendations.</p>
+        </article>
+        <article className="principle principle-paper">
+          <h3>Grounded<br />intelligence</h3>
+          <p>Expertise and evidence that turn complexity into clear, usable choices.</p>
+        </article>
+        <article className="principle principle-ink">
+          <h3>Human<br />guidance</h3>
+          <p>Close collaboration, honest perspective, and momentum you can feel.</p>
+        </article>
       </section>
 
       <section className="contact" id="contact">
