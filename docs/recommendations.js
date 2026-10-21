@@ -36,8 +36,6 @@
   previous.addEventListener("click", () => { show(active - 1); start(); });
   next.addEventListener("click", () => { show(active + 1); start(); });
   dots.forEach((dot, index) => dot.addEventListener("click", () => { show(index); start(); }));
-  section.addEventListener("mouseenter", stop);
-  section.addEventListener("mouseleave", start);
   section.addEventListener("focusin", stop);
   section.addEventListener("focusout", start);
   start();
