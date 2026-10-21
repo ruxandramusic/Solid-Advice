@@ -64,6 +64,8 @@ export default function Home() {
         </div>
       </section>
 
+      <RecommendationCarousel />
+
       <section className="principles" aria-label="Our principles">
         <article className="principle principle-red">
           <span>01</span>
@@ -81,8 +83,6 @@ export default function Home() {
           <p>Close collaboration, honest perspective, and momentum you can feel.</p>
         </article>
       </section>
-
-      <RecommendationCarousel />
 
       <section className="signal">
         <div className="signal-note">
