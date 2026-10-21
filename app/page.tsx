@@ -1,3 +1,5 @@
+import RecommendationCarousel from "./recommendation-carousel";
+
 const Arrow = () => <span aria-hidden="true" className="arrow" />;
 
 export default function Home() {
@@ -14,7 +16,7 @@ export default function Home() {
           </a>
           <div className="nav-links">
             <a href="#approach">Approach</a>
-            <a href="#work">Ways to work</a>
+            <a href="#work">Recommendations</a>
             <a href="#contact">Contact <Arrow /></a>
           </div>
         </nav>
@@ -57,7 +59,7 @@ export default function Home() {
           <div className="manifesto-detail">
             <p>Good advice does more than identify what&apos;s true. It makes space for what&apos;s possible.</p>
             <p>We pair the rigor of research, expertise, and data with creative conviction and a human read on where things are headed. The result is practical clarity with a point of view.</p>
-            <a className="text-link" href="#work">How we help <Arrow /></a>
+            <a className="text-link" href="#work">What people say <Arrow /></a>
           </div>
         </div>
       </section>
@@ -80,29 +82,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="work" id="work">
-        <div className="work-heading">
-          <p className="section-kicker">02 / Ways to work together</p>
-          <p className="work-lede">Built to meet the moment, then see beyond it.</p>
-        </div>
-        <div className="work-list">
-          <article className="work-row">
-            <p className="work-number">(01)</p>
-            <div><h3>Find the signal</h3><p>Research, audience insight, positioning, and the patterns that matter most.</p></div>
-            <span className="work-symbol arrow-southeast" aria-hidden="true" />
-          </article>
-          <article className="work-row">
-            <p className="work-number">(02)</p>
-            <div><h3>Shape the direction</h3><p>Strategy, brand architecture, growth priorities, and a focused plan for what&apos;s next.</p></div>
-            <span className="work-symbol" aria-hidden="true" />
-          </article>
-          <article className="work-row">
-            <p className="work-number">(03)</p>
-            <div><h3>Build momentum</h3><p>Creative platforms, decision support, and senior partnership that carries the work forward.</p></div>
-            <span className="work-symbol arrow-east" aria-hidden="true" />
-          </article>
-        </div>
-      </section>
+      <RecommendationCarousel />
 
       <section className="signal">
         <div className="signal-note">
