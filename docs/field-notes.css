@@ -32,3 +32,19 @@
   .field-note-approach,.field-note-contact{position:relative;right:auto;top:auto;margin:0 0 44px auto}
   .recommendations{grid-template-columns:1fr;padding-left:20px;padding-right:20px;gap:48px}.recommendations h2{margin:30px 0 20px}.recommendation-stage{min-height:405px}.recommendation blockquote>p{font-size:clamp(28px,8.6vw,46px)}.recommendation footer{flex-direction:column;gap:4px}.recommendation{margin:58px 0 36px}
 }
+
+/* Mobile and tablet layout safeguards */
+html,body{max-width:100%;overflow-x:hidden}
+main{width:100%;max-width:100%;overflow-x:hidden}
+.principles{width:100%;max-width:100%;grid-template-columns:repeat(3,minmax(0,1fr))}
+.principle{min-width:0;overflow-wrap:anywhere}
+@media(max-width:900px){
+  .hero-sidestamp{right:20px;top:76px;width:126px;padding:11px 12px}
+  .hero-grid{grid-template-columns:minmax(0,1fr);padding-top:146px;gap:45px}
+  .principles{grid-template-columns:minmax(0,1fr)}
+  .principle{min-height:290px;padding:24px 20px}
+}
+@media(max-width:380px){
+  .hero-sidestamp{right:16px;width:116px}
+  .hero-grid{padding-top:140px}
+}
