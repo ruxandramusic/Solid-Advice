@@ -82,13 +82,15 @@ export default function RecommendationCarousel() {
 
       <div className="recommendation-stage" aria-roledescription="carousel" aria-label="Client recommendations">
         <p className="review-count">({numberLabel(active + 1)} / {numberLabel(recommendations.length)})</p>
-        <blockquote>
-          <p>“{recommendation.quote}”</p>
-          <footer>
-            <strong>{recommendation.author}</strong>
-            <span>{recommendation.detail}</span>
-          </footer>
-        </blockquote>
+        <article className="recommendation">
+          <blockquote>
+            <p>“{recommendation.quote}”</p>
+            <footer>
+              <strong>{recommendation.author}</strong>
+              <span>{recommendation.detail}</span>
+            </footer>
+          </blockquote>
+        </article>
         <div className="recommendation-controls">
           <button type="button" onClick={() => setActive((active - 1 + recommendations.length) % recommendations.length)} aria-label="Previous recommendation">Previous</button>
           <div className="recommendation-dots" role="group" aria-label="Choose a recommendation">

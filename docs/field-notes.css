@@ -49,3 +49,6 @@ main{width:100%;max-width:100%;overflow-x:hidden}
   .hero-sidestamp{right:16px;width:116px}
   .hero-grid{padding-top:106px}
 }
+@media(min-width:761px){
+  .recommendation{margin:clamp(72px,7vw,112px) 0 36px}
+}
