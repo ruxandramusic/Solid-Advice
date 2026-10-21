@@ -6,52 +6,52 @@ const recommendations = [
   {
     quote: "She is thoughtful in her approach, and asks the right questions to ensure accountability, measurement, and success.",
     author: "Kyle Brigham",
-    detail: "LinkedIn recommendation",
+    detail: "Chief Strategy Officer, Marcel Digital",
   },
   {
     quote: "Ruxandra is a highly-talented marketing professional. She’s an absolute pleasure to work with and her data-driven approach to digital marketing makes her a strong asset to any organization.",
     author: "CJ Bacher",
-    detail: "LinkedIn recommendation",
+    detail: "Chief Operating Officer, Eligo Energy",
   },
   {
     quote: "Ruxandra is an elite digital marketing talent that’s data-driven and strategic across channels.",
     author: "Matt Gibbs",
-    detail: "LinkedIn recommendation",
+    detail: "Chief Customer Officer, EverPass Media",
   },
   {
     quote: "Ruxandra is extremely driven and passionate; she always strives for excellence in delivery for her clients.",
     author: "Jenna Watson",
-    detail: "LinkedIn recommendation",
+    detail: "SVP, Media, DAC",
   },
   {
     quote: "She always exceeded all expectations. Her strengths lay in being a data driven professional with a focus on cross channel marketing.",
     author: "Eugene Feygin",
-    detail: "LinkedIn recommendation",
+    detail: "Founder, Raw SEO",
   },
   {
     quote: "Ruxandra is a highly motivated, detail oriented, and passionate marketing professional.",
     author: "Jason Witt",
-    detail: "LinkedIn recommendation",
+    detail: "VP, Executive Creative Director, Zeta Global",
   },
   {
     quote: "Ruxandra is a well-trained and experienced marketing professional with strong project coordination, analytical, team and leadership skills.",
     author: "Zafar Iqbal",
-    detail: "LinkedIn recommendation",
+    detail: "Associate Professor of Marketing, DePaul University",
   },
   {
     quote: "She’s ambitious, smart, hard working and a great team player. She always gives 100% and it shows in her results.",
     author: "Dona Dinescu",
-    detail: "LinkedIn recommendation",
+    detail: "Founder, TLDR&D",
   },
   {
     quote: "She has a strong ability to analyze complex data to help improve marketing effectiveness.",
     author: "Geoff Calhoun",
-    detail: "LinkedIn recommendation",
+    detail: "Senior Product Owner, Unified Ad Sales, Sinclair Inc.",
   },
   {
     quote: "Her work was very efficient and effective. We were able to use this information to attack new markets and innovate new products.",
     author: "Todd Borchardt",
-    detail: "LinkedIn recommendation",
+    detail: "Pure-Cut Metals",
   },
 ];
 
