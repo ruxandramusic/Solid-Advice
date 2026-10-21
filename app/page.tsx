@@ -77,21 +77,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="principles" aria-label="Our principles">
-        <article className="principle principle-red">
-          <h3>Creative<br />conviction</h3>
-          <p>Bold ideas with a real point of view—not safe, interchangeable recommendations.</p>
-        </article>
-        <article className="principle principle-paper">
-          <h3>Grounded<br />intelligence</h3>
-          <p>Expertise and evidence that turn complexity into clear, usable choices.</p>
-        </article>
-        <article className="principle principle-ink">
-          <h3>Human<br />guidance</h3>
-          <p>Close collaboration, honest perspective, and momentum you can feel.</p>
-        </article>
-      </section>
-
       <section className="contact" id="contact">
         <p className="section-kicker">03 / Let&apos;s begin</p>
         <div className="field-note field-note-contact" aria-hidden="true">
