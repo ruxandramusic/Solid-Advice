@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: "Big-picture thinking. Real-world momentum.",
     images: ["/og-field-notes.png"],
   },
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+  icons: { icon: "/favicon.svg?v=20261021-2", shortcut: "/favicon.svg?v=20261021-2" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
