@@ -57,8 +57,9 @@ export default function Home() {
         <div className="manifesto-copy">
           <h2>Clear thinking<br />for a world that<br />isn&apos;t simple.</h2>
           <div className="manifesto-detail">
-            <p>Good advice does more than identify what&apos;s true. It makes space for what&apos;s possible.</p>
-            <p>We pair the rigor of research, expertise, and data with creative conviction and a human read on where things are headed. The result is practical clarity with a point of view.</p>
+            <p><strong>To change what you build, sometimes you have to change how you see.</strong></p>
+            <p>Every meaningful next move begins with a shift in perspective. Sometimes that means challenging an assumption. Sometimes it means rethinking a strategy. And sometimes it means seeing possibilities you hadn&apos;t considered before.</p>
+            <p>At Solid Advice, we bring together strategic expertise, fresh thinking, and a belief in what&apos;s possible to help creators and brands navigate complexity, evolve with intention, and build what&apos;s next.</p>
             <a className="text-link" href="#work">What people say <Arrow /></a>
           </div>
         </div>
