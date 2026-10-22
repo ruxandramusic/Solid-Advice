@@ -25,7 +25,7 @@ export default function Home() {
           <div className="hero-copy">
             <p className="eyebrow"><span className="dot" /> Creative intelligence for meaningful growth</p>
             <h1>See the<br /><em>whole</em> picture.<br />Move with conviction.</h1>
-            <p className="hero-intro">Solid Advice is a boutique consulting studio for people and brands ready to make their next move count.</p>
+            <p className="hero-intro">A boutique consulting studio helping creators and brands see things differently, find clarity in complexity, and turn vision into meaningful progress.</p>
             <a className="button button-dark" href="#contact">Start a conversation <Arrow /></a>
           </div>
 
