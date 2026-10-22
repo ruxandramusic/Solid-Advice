@@ -59,7 +59,7 @@ export default function Home() {
           <div className="manifesto-detail">
             <p><strong>To change what you build, sometimes you have to change how you see.</strong></p>
             <p>Every meaningful next move begins with a shift in perspective. Sometimes that means challenging an assumption. Sometimes it means rethinking a strategy. And sometimes it means seeing possibilities you hadn&apos;t considered before.</p>
-            <p>At Solid Advice, we bring together strategic expertise, creative thinking, and a belief in what&apos;s possible to help creators and brands navigate complexity, evolve with intention, and build what&apos;s next.</p>
+            <p>From untangling complex challenges to charting new directions, we bring together strategic rigor, creative perspective, and practical guidance to shape your next move.</p>
             <a className="text-link" href="#work">What people say <Arrow /></a>
           </div>
         </div>
